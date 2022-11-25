@@ -7,7 +7,7 @@ const ContactUs = () => {
 	return (
 		<div>
 			<Navbar />
-			<div className='flex w-full h-full'>
+			<div className='flex flex-col lg:flex-row w-full h-full'>
 				<ContactSideBar />
 				<ContactMainBoard />
 			</div>
